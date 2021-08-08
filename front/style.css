@@ -347,6 +347,11 @@ input:focus-visible{
     margin-bottom: 95px;
 }
 
+.all__product__btn:active{
+    background-color: #FF6A6A;
+    color: #fff;
+}
+
 /* features company */
 
 .our__features{
@@ -388,4 +393,147 @@ input:focus-visible{
     text-align: center;
     color: #FBFBFB;
     font-size: 13px;
+}
+
+/* subscribe */
+
+.subscribe{
+    width: 100%;
+    max-width: 1600px;
+    min-height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), url(/img/subscribe/Layer\ 41bacground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subscribe__info{
+    width: 359px;
+    min-height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 390px 0 0;
+}
+
+.subscribe__info__userpic{
+    width: 96px;
+    height: 96px;
+    display: block;
+    background-image: url(/img/subscribe/Layer\ 40subscribeuserpic.png);
+    margin: 0 50px 30px 0;
+}
+
+.subscribe__info__text{
+    width: 100%;
+    height: 99px;
+    text-align: center;
+    font-size: 20px;
+    color: #222224;
+    font-style: italic;
+}
+
+.subscribe__form{
+    width: 357px;
+}
+
+.subscribe__form__title,
+.subscribe__form__subtitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: #222224;
+}
+
+.subscribe__form__title{
+    display: block;
+    font-size: 24px;
+}
+
+.subscribe__form__subtitle{
+    line-height: 30px;
+    font-size: 18px;
+
+}
+
+.subscribe__form__btn{
+    width: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscribe__form__email{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 20px 0 0 20px;
+    color: #222224;
+    background-color: #E1E1E1;
+    font-size: 14px;
+    opacity: 67%;
+    line-height: 17px;
+}
+
+.subscribe__form__email:active{
+    border-radius: 20px 0 0 20px;
+}
+
+.subscribe__form__submit{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0 20px 20px 0 ;
+    padding: 14px 20px;
+    background-color: #F16D7F;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.subscribe__form__submit:active{
+    background-color: #fff;
+    color: #FF6A6A;
+    border: 1px solid #FF6A6A
+}
+
+/* footer */
+
+.page__foote{
+    width: 100%;
+    max-width: 1600px;
+    min-height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222224;
+    padding: 20px 235px;
+}
+
+.page__foter__text{
+    color: #FBFBFB;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.fa {
+    background-color: #fff;
+    padding: 8px;
+    width: 31px;
+    height: 32px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin: 0 3px 0 0;
+    cursor: pointer;
+}
+
+.fa:active{
+    background-color: #F16D7F;
+    color: #fff;
 }
