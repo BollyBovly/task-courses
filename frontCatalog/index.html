@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,60 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="/frontCatalog/style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="container">
+        <header class="page__header">
+            <div class="page__header__wrap">
 
-</body>
+                <a class="page__header__logo" href="index.html">
+                    <img src="/img/header/Group 2logo_header.svg" alt="logo__header" height="38">
+                </a>
+                <form class="page__search__btn__form" action="">
+                    <label for="search__btn">
+                        <img src="/img/header/Forma 1search.svg" alt="search__btn" width="27" height="28"
+                            viewBox="0 0 27 28">
+                    </label>
+                    <input class="page__search__btn__input" type="search" name="" id="search__btn">
+                </form>
+            </div>
+
+            <div class="page__heder__btn">
+                <button class="page__menu__btn">
+                    <img src="/img/header/Forma 1menubtn.svg" alt="menu__btn" width="32" height="23">
+
+                </button>
+                <button class="user__profile__btn">
+                    <img src="/img/header/Forma 1userprofile.svg" alt="profile__btn" width="29" height="29">
+                </button>
+                <button class="basket__btn">
+                    <img src="/img/header/Group 35basket.png" alt="basket__btn" width="41" height="37">
+                </button>
+            </div>
+        </header>
+        <main>
+            <section class="page__bredcrumb">
+                <div class="page__title">
+                    <span>new arrivals</span>
+                </div>
+                <nav class="breadcrumb__links">
+                    <ul class="breadcrumb">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">man</a></li>
+                        <li>new arrivals</li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="page__filter">
+                <div class="page__folter__title">
+                    <span>filter</span>
+                </div>
+            </section>
+        </main>
+    </div>
 
 </html>
