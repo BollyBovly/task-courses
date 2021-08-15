@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-    min-width: 1700px;
+    min-width: 1600px;
     margin: 0 auto;
 }
 
@@ -344,3 +344,118 @@ input:focus-visible{
     text-decoration: none;
   }
 }
+
+/* page bredcrumb */
+
+.page-bredcrumb{
+  background-color: #F8F3F4;
+  width: $width-100;
+  min-height: 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title{
+  color: $pink-text-color;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 220px;
+}
+
+ul.breadcrumb{
+  padding: 10px 16px;
+  list-style: none;
+  padding-right: 235px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #000;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #636363;
+  text-decoration: none;
+}
+
+ul.breadcrumb:last-child{
+  color: $pink-text-color;
+  font-weight: 700;
+}
+
+/* show product */
+
+.page-show-product{
+  width: $width-100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F7F7F7;
+  border: 1px solid #EAEAEA;
+}
+
+.page-show-control{
+  padding: 12px 17px;
+  border: none;
+  background: rgba(42, 42, 42, 0.15);
+  cursor: pointer;
+}
+
+.page-info-product{
+  width: 1141px;
+  min-height: 601;
+  border: 1px solid #EAEAEA;
+  text-align: center;
+}
+
+.page-info{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-info-product-content{
+  padding: 64px 0;
+  
+}
+
+.page-collection{
+  font-size: 14px;
+  font-weight: 300;
+  color: $pink-text-color;
+  text-transform: uppercase;
+  line-height: 17px;
+  &::after{
+    content: '';
+    display: block;
+    width: 63px;
+    height: 3px;
+    background-color: #EF5B70;
+    position: absolute;
+    right: 922px;
+    margin-top: 10px;
+  }
+}
+
+.page-global-info{
+  margin-top: 30px;
+}
+
+.page-info-product-title{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  text-transform: uppercase;
+  padding: 12px 0 48px 0;
+}
+
