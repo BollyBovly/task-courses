@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    width: 1600px;
+    min-width: 1600px;
     margin: 0 auto;
     font-size: 16px;
 }
@@ -354,7 +354,7 @@ input:focus-visible{
 /* features company */
 
 .our-features{
-    max-width: 1600px;
+    min-width: 1600px;
     min-height: 341px;
     width: 100%;
     display: flex;
@@ -398,15 +398,14 @@ input:focus-visible{
 
 .subscribe{
     width: 100%;
-    max-width: 1600px;
+    min-width: 1600px;
     min-height: 448px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), url(/front/img/subscribe/Layer\ 41bacground.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .subscribe-info{
@@ -505,7 +504,7 @@ input:focus-visible{
 
 .page-footer{
     width: 100%;
-    max-width: 1600px;
+    min-width: 1600px;
     min-height: 79px;
     display: flex;
     justify-content: space-between;
