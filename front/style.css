@@ -287,8 +287,6 @@ input:focus-visible{
     position: relative; 
 }
 
-
-
 .product-item-photo-wrp{
     background-color: #F7E4E2;
     display: flex;
@@ -304,12 +302,16 @@ input:focus-visible{
     box-sizing: border-box;
 }
 
+#man{
+    margin: 10px 110px;
+}
+
 #girl{
     margin: 10px 110px;
 }
 
 .product-item-title{
-    padding: 0 18px;
+    padding: 10px 18px;
     font-size: 13px;
     line-height: 15,6px;
 }
