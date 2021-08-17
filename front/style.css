@@ -31,7 +31,7 @@ input:focus-visible{
 
 /* page header */
 
-.page__header {
+.page-header {
     width: 100%;
     min-height: 75px;
     display: flex;
@@ -47,7 +47,7 @@ input:focus-visible{
   }
 
 
-.page__header__wrap{
+.page-header-wrap{
     width: 111px;
     display: flex;
     justify-content: space-between;
@@ -55,13 +55,13 @@ input:focus-visible{
     margin-left: 231px;
 }
 
-.page__heder__btn button{
+.page-heder-btn button{
     padding: 0;
     background-color: transparent;
     border: none;
 }
 
-.page__header__wrap img {
+.page-header-wrap img {
     width: 100%;
     height: 100%;
     
@@ -69,36 +69,36 @@ input:focus-visible{
 
   /* page hesder logo */
 
-.page__header__logo{
+.page-header-logo{
     display: block;
     width: 44px;
     height: 38px;
 }
 
-.page__header__logo:hover img{
+.page-header-logo:hover img{
     filter: brightness(50%);
 }
 
-.page__header__logo:active img{
+.page-header-logo:active img{
     filter: brightness(25%);
 }
 
-.page__search__btn__form{
+.page-search-btn-form{
     width: 26px;
     height: 27px;
 
     position: relative;
 }
 
-.page__search__btn__form:hover img{
+.page-search-btn-form:hover img{
     filter: brightness(50%);
 }
 
-.page__search__btn__form:active{
+.page-search-btn-form:active{
     filter: brightness(25%);
 }
 
-.page__search__btn__input{
+.page-search-btn-input{
     width: 0;
     height: 0;
     background-color: transparent;
@@ -110,14 +110,14 @@ input:focus-visible{
     text-transform: capitalize
 }
 
-.page__search__btn__input:focus{
+.page-search-btn-input:focus{
     width: 230px;
     height: 30px;
     background-color: rgb(199, 199, 199);
     transition: 0.5s;
 }
 
-.page__heder__btn{
+.page-heder-btn{
     width: 168px;
     min-height: 37px;
     display: flex;
@@ -128,7 +128,7 @@ input:focus-visible{
 
 /* header banner */
 
-.header__banner{
+.header-banner{
     width: 100%;
     min-height: 764px;
     background-color: #F1E4E6;
@@ -141,7 +141,7 @@ input:focus-visible{
     
 }
 
-.header__baner__wrp{
+.header-baner-wrp{
     text-transform: uppercase;
     width: 377px;
     margin: 0 350px 90px 0;
@@ -153,7 +153,7 @@ input:focus-visible{
     color: #222222;
 }
 
-.header__baner__wrp::before{
+.header-baner-wrp::before{
     content: '';
     display: block;
     width: 12px;
@@ -164,7 +164,7 @@ input:focus-visible{
     left: -16px;
 }
 
-.header__banner__subject{
+.header-banner-subject{
     display: block;
     width: 100%;
     font-weight: 900;
@@ -174,7 +174,7 @@ input:focus-visible{
     color: #222222;
 }
 
-.header__banner__color__text{
+.header-banner-color-text{
     color: #F16D7F;
 }
 
@@ -191,7 +191,7 @@ input:focus-visible{
     margin: 65px auto 96px auto;
 }
 
-.categories__items{
+.categories-items{
     width: 360px;
     height: 260px;
     display: flex;
@@ -202,19 +202,19 @@ input:focus-visible{
     margin: 0 20px 20px 0;
 }
 
-.categories__items:nth-child(1){
+.categories-items:nth-child(1){
     background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Layer\ 43forwoman.png);
 }
 
-.categories__items:nth-child(2){
+.categories-items:nth-child(2){
     background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 30forman.png);
 }
 
-.categories__items:nth-child(3){
+.categories-items:nth-child(3){
     background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 30forkids.png);
 }
 
-.categories__items:nth-child(4){
+.categories-items:nth-child(4){
     background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 20foraccesories.png);
     width: 100%;
     height: 180px;
@@ -222,14 +222,14 @@ input:focus-visible{
     margin-top: 5px;
 }
 
-.categories__items__title,
-.categories__items__subtitle{
+.categories-items-title,
+.categories-items-subtitle{
     display: block;
     width: 100%;
     text-transform: uppercase;
 }
 
-.categories__items__title{
+.categories-items-title{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -237,7 +237,7 @@ input:focus-visible{
     color: #fff;
 }
 
-.categories__items__subtitle{
+.categories-items-subtitle{
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -258,7 +258,7 @@ input:focus-visible{
     margin: 0 auto;
 }
 
-.product__title{
+.product-title{
     display: block;
     width: 100%;
     text-align: center;
@@ -268,7 +268,7 @@ input:focus-visible{
     line-height: 36px;
 }
 
-.ptoduct__subtitle{
+.ptoduct-subtitle{
     display: block;
     width: 100%;
     text-align: center;
@@ -279,7 +279,7 @@ input:focus-visible{
     margin: 0 0 48px 0;
 }
 
-.product__item{
+.product-item{
     width: 360px;
     min-height: 581px;
     text-decoration: none;
@@ -290,7 +290,7 @@ input:focus-visible{
 
 
 
-.product__item__photo__wrp{
+.product-item-photo-wrp{
     background-color: #F7E4E2;
     display: flex;
     justify-content: center;
@@ -299,7 +299,7 @@ input:focus-visible{
     width: 100%;
 }
 
-.product__item__photo{
+.product-item-photo{
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
@@ -309,13 +309,13 @@ input:focus-visible{
     margin: 10px 110px;
 }
 
-.product__item__title{
+.product-item-title{
     padding: 0 18px;
     font-size: 13px;
     line-height: 15,6px;
 }
 
-.product__item__subtitle{
+.product-item-subtitle{
     padding: 12px 18px;
     font-size: 14px;
     color: #5D5D5D;
@@ -324,19 +324,19 @@ input:focus-visible{
     font-style: normal;
 }
 
-.product__item__cost{
+.product-item-cost{
     padding: 0 0 20px 18px;
     font-size: 16px;
     line-height: 19,2px;
     color: #F16D7F;;
 }
 
-.product__item__text{
+.product-item-text{
     background-color: #F8F8F8;
     padding: 10px 0;
 }
 
-.all__product__btn{
+.all-product-btn{
     border: 1px solid #FF6A6A;
     padding: 14px 38px;
     font-size: 16px;
@@ -347,14 +347,14 @@ input:focus-visible{
     margin-bottom: 95px;
 }
 
-.all__product__btn:active{
+.all-product-btn:active{
     background-color: #FF6A6A;
     color: #fff;
 }
 
 /* features company */
 
-.our__features{
+.our-features{
     max-width: 1600px;
     min-height: 341px;
     width: 100%;
@@ -367,7 +367,7 @@ input:focus-visible{
     background-color: #222224;
 }
 
-.features__item{
+.features-item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,12 +376,12 @@ input:focus-visible{
     margin: 0 90px 0 0;
     }
 
-.features__icon{
+.features-icon{
     display: block;
     margin: 0 0 28px 0;
 }
 
-.features__item__title{
+.features-item-title{
     display: block;
     width: 100%;
     margin: 0 0 16px 90px;
@@ -389,7 +389,7 @@ input:focus-visible{
     color: #FBFBFB;
 }
 
-.feature__title__text{
+.feature-title-text{
     text-align: center;
     color: #FBFBFB;
     font-size: 13px;
@@ -410,7 +410,7 @@ input:focus-visible{
     background-repeat: no-repeat;
 }
 
-.subscribe__info{
+.subscribe-info{
     width: 359px;
     min-height: 225px;
     display: flex;
@@ -420,7 +420,7 @@ input:focus-visible{
     margin: 0 390px 0 0;
 }
 
-.subscribe__info__userpic{
+.subscribe-info-userpic{
     width: 96px;
     height: 96px;
     display: block;
@@ -428,7 +428,7 @@ input:focus-visible{
     margin: 0 50px 30px 0;
 }
 
-.subscribe__info__text{
+.subscribe-info-text{
     width: 100%;
     height: 99px;
     text-align: center;
@@ -437,29 +437,29 @@ input:focus-visible{
     font-style: italic;
 }
 
-.subscribe__form{
+.subscribe-form{
     width: 357px;
 }
 
-.subscribe__form__title,
-.subscribe__form__subtitle{
+.subscribe-form-title,
+.subscribe-form-subtitle{
     text-align: center;
     text-transform: uppercase;
     color: #222224;
 }
 
-.subscribe__form__title{
+.subscribe-form-title{
     display: block;
     font-size: 24px;
 }
 
-.subscribe__form__subtitle{
+.subscribe-form-subtitle{
     line-height: 30px;
     font-size: 18px;
 
 }
 
-.subscribe__form__btn{
+.subscribe-form-btn{
     width: 357px;
     display: flex;
     justify-content: center;
@@ -467,7 +467,7 @@ input:focus-visible{
     
 }
 
-.subscribe__form__email{
+.subscribe-form-email{
     display: flex;
     align-items: center;
     border: none;
@@ -480,11 +480,11 @@ input:focus-visible{
     line-height: 17px;
 }
 
-.subscribe__form__email:active{
+.subscribe-form-email:active{
     border-radius: 20px 0 0 20px;
 }
 
-.subscribe__form__submit{
+.subscribe-form-submit{
     display: flex;
     align-items: center;
     border: none;
@@ -496,7 +496,7 @@ input:focus-visible{
     cursor: pointer;
 }
 
-.subscribe__form__submit:active{
+.subscribe-form-submit:active{
     background-color: #fff;
     color: #FF6A6A;
     border: 1px solid #FF6A6A
@@ -504,7 +504,7 @@ input:focus-visible{
 
 /* footer */
 
-.page__foote{
+.page-footer{
     width: 100%;
     max-width: 1600px;
     min-height: 79px;
@@ -515,7 +515,7 @@ input:focus-visible{
     padding: 20px 235px;
 }
 
-.page__foter__text{
+.page-foter-text{
     color: #FBFBFB;
     font-size: 16px;
     line-height: 19px;
