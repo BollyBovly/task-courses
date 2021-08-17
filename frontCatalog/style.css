@@ -404,29 +404,6 @@ ul.page__sort__title li::after {
     content: "\02C5\00a0";
 }
 
-/* filter dropdown */
-
-.btn-secondary{
-    background-color: transparent;
-    border: none;
-}
-
-.flush__menu__list{
-    list-style: none;
-    color: #6F6E6E;
-    font-size: 14px;
-}
-
-.accordion-body-items{
-    line-height: 16,8px;
-}
-
-.dropdown-menu{
-    width: 357px;
-    min-height: 530px;
-    box-shadow: 1px 0px 20px 1px #6F6E6E;
-}
-
 
 /* products */
 
