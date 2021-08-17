@@ -703,10 +703,6 @@ ul.page-sort-title li::after {
     position: relative; 
 }
 
-.product-link{
-    width: 360px;
-}
-
 .product-item-photo-wrp{
     background-color: #F7E4E2;
     display: flex;
