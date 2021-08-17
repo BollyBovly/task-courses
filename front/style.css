@@ -317,6 +317,41 @@ input:focus-visible{
     line-height: 15,6px;
 }
 
+.product-item-btn{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+}
+
+.product-item-btn img{
+    fill: #fff;
+    margin: 0 11px 0 0;
+}
+
+.product-item:hover .product-item-btn{
+    display: flex;
+
+}
+
+.product-item:hover .product-item-btn:hover img{
+    fill: #000;
+}
+
+.product-item:hover .product-item-btn:hover{
+    background-color: #c7c7c7;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
 .product-item-subtitle{
     padding: 12px 18px;
     font-size: 14px;
