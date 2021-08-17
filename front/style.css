@@ -575,7 +575,7 @@ ul.page-sort-title li::after {
     height: 92px;
     background-color: #F16D7F;
     position: absolute;
-    top: 45px;
+    top: 0px;
     left: -16px;
 }
 
