@@ -55,7 +55,7 @@ input:focus-visible{
     margin-left: 231px;
 }
 
-.page-heder-btn button{
+.page-header-btn button{
     padding: 0;
     background-color: transparent;
     border: none;
@@ -117,13 +117,12 @@ input:focus-visible{
     transition: 0.5s;
 }
 
-.page-heder-btn{
+.page-header-btn{
     width: 168px;
     min-height: 37px;
     display: flex;
     justify-content: space-between;
     margin:9px 240px 0 0;
-
 }
 
 /* header banner */
@@ -132,7 +131,7 @@ input:focus-visible{
     width: 100%;
     min-height: 764px;
     background-color: #F1E4E6;
-    background-image: url(/img/headerBaner/Layer_57-removebg-preview\ 1manjacket.png);
+    background-image: url(/front/img/headerBaner/Layer_57-removebg-preview\ 1manjacket.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -203,19 +202,19 @@ input:focus-visible{
 }
 
 .categories-items:nth-child(1){
-    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Layer\ 43forwoman.png);
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/Layer\ 43forwoman.png);
 }
 
 .categories-items:nth-child(2){
-    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 30forman.png);
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/Rectangle\ 30forman.png);
 }
 
 .categories-items:nth-child(3){
-    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 30forkids.png);
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/Rectangle\ 30forkids.png);
 }
 
 .categories-items:nth-child(4){
-    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/img/categories/Rectangle\ 20foraccesories.png);
+    background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/Rectangle\ 20foraccesories.png);
     width: 100%;
     height: 180px;
     background-repeat: no-repeat;
@@ -405,7 +404,7 @@ input:focus-visible{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), url(/img/subscribe/Layer\ 41bacground.jpg);
+    background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), url(/front/img/subscribe/Layer\ 41bacground.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -424,7 +423,7 @@ input:focus-visible{
     width: 96px;
     height: 96px;
     display: block;
-    background-image: url(/img/subscribe/Layer\ 40subscribeuserpic.png);
+    background-image: url(/front/img/subscribe/Layer\ 40subscribeuserpic.png);
     margin: 0 50px 30px 0;
 }
 
