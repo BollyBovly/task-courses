@@ -11,6 +11,10 @@ body{
     padding: 0;
 }
 
+main{
+    width: 100%;
+}
+
 .container{
     width: 100%;
     min-width: 1600px;
@@ -126,7 +130,7 @@ input:focus-visible{
     transition: 0.5s;
 }
 
-.page-heder-btn{
+.page-header-btn{
     width: 168px;
     min-height: 37px;
     display: flex;
@@ -852,8 +856,6 @@ ul.page-sort-title li::after {
     flex-wrap: wrap;
     background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), url(/front/img/subscribe/Layer\ 41bacground.jpg);
     background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .subscribe-info{
