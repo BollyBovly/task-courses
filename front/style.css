@@ -973,7 +973,23 @@ ul.page-sort-title li::after {
     cursor: pointer;
 }
 
-.fa:active{
-    background-color: #F16D7F;
+.fa:hover{
     color: #fff;
+    transition: 0.3s;
+}
+
+.fa-facebook:hover{
+    background-color: #3b5998;
+}
+
+.fa-instagram:hover{
+    background-color: #E1306C;
+}
+
+.fa-pinterest:hover{
+    background-color: #E60023;
+}
+
+.fa-twitter:hover{
+    background-color: #1DA1F2;
 }
