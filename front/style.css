@@ -495,8 +495,105 @@ ul.breadcrumb:last-child {
   line-height: 19px;
   margin-left: 20px; }
 
-/* page-carousel */
+/* page-registration */
 /* line 556, scss/style.scss */
+.wrap {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 64px; }
+
+/* line 564, scss/style.scss */
+.page-registration-info-product {
+  width: 358px; }
+
+/* line 568, scss/style.scss */
+.page-registration {
+  max-width: 360px; }
+
+/* line 572, scss/style.scss */
+.page-info-registration {
+  width: 100%;
+  margin-top: 23px;
+  padding: 13px 10px;
+  border: 1px solid #a4a4a4;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px; }
+
+/* line 582, scss/style.scss */
+.page-info-registration-radio {
+  margin: 32px 0;
+  border: 1px solid #a4a4a4;
+  box-sizing: border-box; }
+  /* line 587, scss/style.scss */
+  .page-info-registration-radio label {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000; }
+
+/* line 596, scss/style.scss */
+.page-info-registration-txt p {
+  margin: 15px 0 30px 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1; }
+
+/* line 605, scss/style.scss */
+.page-registration-submit {
+  min-width: 167px;
+  background-color: #f16d7f;
+  border: none;
+  color: #fff;
+  padding: 16px 0; }
+
+/* page-exclusive */
+/* line 615, scss/style.scss */
+.page-exclusive {
+  max-width: 652px; }
+
+/* line 619, scss/style.scss */
+.page-exclusive-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000; }
+  /* line 624, scss/style.scss */
+  .page-exclusive-title p {
+    margin-bottom: 20px; }
+
+/* line 629, scss/style.scss */
+.page-exclusive-subtitle {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000; }
+
+/* line 636, scss/style.scss */
+.page-exclusive-content {
+  padding-left: 35px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 20px;
+  max-width: 652px;
+  color: #000000; }
+
+/* line 647, scss/style.scss */
+.page-exclusive-content-txt {
+  line-height: 40px; }
+  /* line 649, scss/style.scss */
+  .page-exclusive-content-txt::before {
+    content: "\2713\00a0";
+    display: block;
+    position: absolute;
+    right: 980px; }
+
+/* page-carousel */
+/* line 659, scss/style.scss */
 .page-carousel {
   width: 100%;
   display: flex;
@@ -506,25 +603,25 @@ ul.breadcrumb:last-child {
   border: 1px solid #eaeaea;
   min-height: 777px; }
 
-/* line 566, scss/style.scss */
+/* line 669, scss/style.scss */
 .page-carousel-control {
   padding: 12px 17px;
   border: none;
   background: rgba(42, 42, 42, 0.15);
   cursor: pointer; }
 
-/* line 573, scss/style.scss */
+/* line 676, scss/style.scss */
 .control-left {
   border: none;
   background-color: transparent; }
 
-/* line 578, scss/style.scss */
+/* line 681, scss/style.scss */
 .control-right {
   border: none;
   background-color: transparent; }
 
 /* page-info-about-product */
-/* line 585, scss/style.scss */
+/* line 688, scss/style.scss */
 .page-info-about-product {
   max-width: 1140px;
   min-height: 601px;
@@ -535,26 +632,26 @@ ul.breadcrumb:last-child {
   position: relative; }
 
 /*=========end page-info-about-product  ===========*/
-/* line 597, scss/style.scss */
+/* line 700, scss/style.scss */
 .page-info-product {
   width: 1141px;
   min-height: 601;
   border: 1px solid #eaeaea;
   text-align: center; }
 
-/* line 604, scss/style.scss */
+/* line 707, scss/style.scss */
 .page-info-about-content {
   text-align: center;
   padding-top: 65px; }
 
-/* line 609, scss/style.scss */
+/* line 712, scss/style.scss */
 .page-info-collection {
   font-size: 14px;
   font-weight: 300;
   color: #f16d7f;
   text-transform: uppercase;
   line-height: 17px; }
-  /* line 615, scss/style.scss */
+  /* line 718, scss/style.scss */
   .page-info-collection::after {
     content: "";
     display: block;
@@ -565,7 +662,7 @@ ul.breadcrumb:last-child {
     right: 535px;
     margin-top: 10px; }
 
-/* line 627, scss/style.scss */
+/* line 730, scss/style.scss */
 .page-info-title {
   font-weight: 300;
   font-size: 18px;
@@ -575,7 +672,7 @@ ul.breadcrumb:last-child {
   padding: 12px 0 48px 0;
   margin-left: 100px; }
 
-/* line 637, scss/style.scss */
+/* line 740, scss/style.scss */
 .page-info-txt {
   width: 555px;
   margin: 0 auto;
@@ -587,14 +684,14 @@ ul.breadcrumb:last-child {
   line-height: 17px;
   text-align: center; }
 
-/* line 649, scss/style.scss */
+/* line 752, scss/style.scss */
 .page-info-cost {
   color: #ef5b70;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px; }
 
-/* line 656, scss/style.scss */
+/* line 759, scss/style.scss */
 .page-info-line {
   content: "";
   display: block;
@@ -606,54 +703,54 @@ ul.breadcrumb:last-child {
   margin-bottom: 65px; }
 
 /* products */
-/* line 669, scss/style.scss */
+/* line 772, scss/style.scss */
 .product-link {
   background-color: #f16d7f; }
 
-/* line 673, scss/style.scss */
+/* line 776, scss/style.scss */
 .product-item-text {
   background-color: #f8f8f8;
   padding: 16px 0; }
 
-/* line 678, scss/style.scss */
+/* line 781, scss/style.scss */
 .product-item-cost {
   padding-left: 20px; }
 
-/* line 682, scss/style.scss */
+/* line 785, scss/style.scss */
 #man {
   margin-top: 20px; }
 
-/* line 686, scss/style.scss */
+/* line 789, scss/style.scss */
 ul.page-sort-title {
   padding: 10px 16px;
   list-style: none; }
 
-/* line 691, scss/style.scss */
+/* line 794, scss/style.scss */
 ul.page-sort-title li {
   display: inline;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase; }
 
-/* line 698, scss/style.scss */
+/* line 801, scss/style.scss */
 ul.page-sort-title li a {
   color: #636363;
   text-decoration: none; }
 
-/* line 703, scss/style.scss */
+/* line 806, scss/style.scss */
 ul.page-sort-title li::after {
   padding: 8px;
   color: #6f6e6e;
   content: "\02C5\00a0"; }
 
-/* line 709, scss/style.scss */
+/* line 812, scss/style.scss */
 .page-info-btn {
   width: 211px;
   background-color: transparent;
   border: 1px solid #ff6a6a;
   color: #ff6a6a;
   margin-top: 48px; }
-  /* line 716, scss/style.scss */
+  /* line 819, scss/style.scss */
   .page-info-btn a {
     padding-top: 14px;
     text-decoration: none;
@@ -663,11 +760,11 @@ ul.page-sort-title li::after {
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 25px; }
-    /* line 725, scss/style.scss */
+    /* line 828, scss/style.scss */
     .page-info-btn a span {
       margin-left: 15px; }
 
-/* line 731, scss/style.scss */
+/* line 834, scss/style.scss */
 .products {
   display: flex;
   justify-content: center;
@@ -679,7 +776,7 @@ ul.page-sort-title li::after {
   margin: 0 auto;
   margin-top: 129px; }
 
-/* line 743, scss/style.scss */
+/* line 846, scss/style.scss */
 .product-item {
   width: 360px;
   min-height: 581px;
@@ -688,7 +785,7 @@ ul.page-sort-title li::after {
   margin: 0 20px 20px 0;
   position: relative; }
 
-/* line 752, scss/style.scss */
+/* line 855, scss/style.scss */
 .product-item-photo-wrp {
   background-color: #f8f8f8;
   display: flex;
@@ -697,19 +794,19 @@ ul.page-sort-title li::after {
   flex-wrap: wrap;
   width: 100%; }
 
-/* line 761, scss/style.scss */
+/* line 864, scss/style.scss */
 .product-item-photo {
   display: block;
   margin: 0 auto;
   box-sizing: border-box; }
 
-/* line 767, scss/style.scss */
+/* line 870, scss/style.scss */
 .product-item-title {
   padding: 0 18px;
   font-size: 13px;
   line-height: 15, 6px; }
 
-/* line 773, scss/style.scss */
+/* line 876, scss/style.scss */
 .product-item-subtitle {
   padding: 12px 18px;
   font-size: 14px;
@@ -719,7 +816,7 @@ ul.page-sort-title li::after {
   font-style: normal; }
 
 /* subscribe */
-/* line 784, scss/style.scss */
+/* line 887, scss/style.scss */
 .subscribe {
   width: 100%;
   min-width: 1700px;
@@ -733,7 +830,7 @@ ul.page-sort-title li::after {
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 802, scss/style.scss */
+/* line 905, scss/style.scss */
 .subscribe-info {
   width: 359px;
   min-height: 225px;
@@ -743,7 +840,7 @@ ul.page-sort-title li::after {
   flex-wrap: wrap;
   margin: 0 390px 0 0; }
 
-/* line 812, scss/style.scss */
+/* line 915, scss/style.scss */
 .subscribe-info-userpic {
   width: 96px;
   height: 96px;
@@ -751,7 +848,7 @@ ul.page-sort-title li::after {
   margin: 0 50px 30px 0;
   background-image: url(/front/img/subscribe/userpic.png); }
 
-/* line 820, scss/style.scss */
+/* line 923, scss/style.scss */
 .subscribe-info-text {
   width: 100%;
   height: 99px;
@@ -760,35 +857,35 @@ ul.page-sort-title li::after {
   color: #222224;
   font-style: italic; }
 
-/* line 829, scss/style.scss */
+/* line 932, scss/style.scss */
 .subscribe-form {
   width: 358px; }
 
-/* line 833, scss/style.scss */
+/* line 936, scss/style.scss */
 .subscribe-form-title,
 .subscribe-form-subtitle {
   text-align: center;
   text-transform: uppercase;
   color: #222224; }
 
-/* line 840, scss/style.scss */
+/* line 943, scss/style.scss */
 .subscribe-form-title {
   display: block;
   font-size: 24px; }
 
-/* line 845, scss/style.scss */
+/* line 948, scss/style.scss */
 .subscribe-form-subtitle {
   line-height: 30px;
   font-size: 18px; }
 
-/* line 850, scss/style.scss */
+/* line 953, scss/style.scss */
 .subscribe-form-btn {
   width: 357px;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-/* line 857, scss/style.scss */
+/* line 960, scss/style.scss */
 .subscribe-form-email {
   display: flex;
   align-items: center;
@@ -801,11 +898,11 @@ ul.page-sort-title li::after {
   opacity: 67%;
   line-height: 17px; }
 
-/* line 870, scss/style.scss */
+/* line 973, scss/style.scss */
 .subscribe-form-email:active {
   border-radius: 20px 0 0 20px; }
 
-/* line 874, scss/style.scss */
+/* line 977, scss/style.scss */
 .subscribe-form-submit {
   display: flex;
   align-items: center;
@@ -817,14 +914,14 @@ ul.page-sort-title li::after {
   text-transform: capitalize;
   cursor: pointer; }
 
-/* line 886, scss/style.scss */
+/* line 989, scss/style.scss */
 .subscribe-form-submit:active {
   background-color: #fff;
   color: #ff6a6a;
   border: 1px solid #ff6a6a; }
 
 /* footer */
-/* line 894, scss/style.scss */
+/* line 997, scss/style.scss */
 .page-footer {
   width: 100%;
   min-width: 1600px;
@@ -835,13 +932,13 @@ ul.page-sort-title li::after {
   background-color: #222224;
   padding: 20px 235px; }
 
-/* line 905, scss/style.scss */
+/* line 1008, scss/style.scss */
 .page-foter-text {
   color: #fbfbfb;
   font-size: 16px;
   line-height: 19px; }
 
-/* line 911, scss/style.scss */
+/* line 1014, scss/style.scss */
 .fa {
   background-color: #fff;
   padding: 8px;
@@ -853,24 +950,24 @@ ul.page-sort-title li::after {
   margin: 0 3px 0 0;
   cursor: pointer; }
 
-/* line 923, scss/style.scss */
+/* line 1026, scss/style.scss */
 .fa:hover {
   color: #fff;
   transition: 0.3s; }
 
-/* line 928, scss/style.scss */
+/* line 1031, scss/style.scss */
 .fa-facebook:hover {
   background-color: #3b5998; }
 
-/* line 932, scss/style.scss */
+/* line 1035, scss/style.scss */
 .fa-instagram:hover {
   background-color: #e1306c; }
 
-/* line 936, scss/style.scss */
+/* line 1039, scss/style.scss */
 .fa-pinterest:hover {
   background-color: #e60023; }
 
-/* line 940, scss/style.scss */
+/* line 1043, scss/style.scss */
 .fa-twitter:hover {
   background-color: #1da1f2; }
 
