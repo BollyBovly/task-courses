@@ -7,6 +7,7 @@ $bold-text: 700;
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 *,
@@ -18,7 +19,8 @@ body {
 }
 
 .container {
-  min-width: 1600px;
+  width: $width-100;
+  min-width: 700px;
   margin: 0 auto;
 }
 
@@ -36,6 +38,7 @@ input:focus-visible {
 
 .page-header {
   width: $width-100;
+  min-width: 700px;
   min-height: 75px;
   display: flex;
   justify-content: space-between;
@@ -336,9 +339,10 @@ input:focus-visible {
 
 .header-banner {
   width: 100%;
+  min-width: 700px;
   min-height: 764px;
   background-color: #f1e4e6;
-  background-image: url(/front/img/headerBaner/Layer_57-removebg-preview\ 1manjacket.png);
+  background-image: url(/front/img/headerBaner/manjacket.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -412,7 +416,7 @@ input:focus-visible {
       rgba(33, 22, 22, 0.7),
       rgba(33, 22, 22, 0.7)
     ),
-    url(/front/img/categories/Layer\ 43forwoman.png);
+    url(/front/img/categories/forwoman.png);
 }
 
 .categories-items:nth-child(2) {
@@ -420,7 +424,7 @@ input:focus-visible {
       rgba(33, 22, 22, 0.7),
       rgba(33, 22, 22, 0.7)
     ),
-    url(/front/img/categories/Rectangle\ 30forman.png);
+    url(/front/img/categories/forman.png);
 }
 
 .categories-items:nth-child(3) {
@@ -428,7 +432,7 @@ input:focus-visible {
       rgba(33, 22, 22, 0.7),
       rgba(33, 22, 22, 0.7)
     ),
-    url(/front/img/categories/Rectangle\ 30forkids.png);
+    url(/front/img/categories/forkids.png);
 }
 
 .categories-items:nth-child(4) {
@@ -436,7 +440,7 @@ input:focus-visible {
       rgba(33, 22, 22, 0.7),
       rgba(33, 22, 22, 0.7)
     ),
-    url(/front/img/categories/Rectangle\ 20foraccesories.png);
+    url(/front/img/categories/foraccesories.png);
   width: 100%;
   height: 180px;
   background-repeat: no-repeat;
@@ -1358,9 +1362,9 @@ ul.page-sort-title li::after {
 /* our-features */
 
 .our-features {
-  min-width: 1600px;
+  width: $width-100;
+  min-width: 768px;
   min-height: 341px;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1402,7 +1406,7 @@ ul.page-sort-title li::after {
 
 .subscribe {
   width: 100%;
-  min-width: 1700px;
+  min-width: 768px;
   min-height: 448px;
   display: flex;
   justify-content: center;
@@ -1432,7 +1436,7 @@ ul.page-sort-title li::after {
   width: 96px;
   height: 96px;
   display: block;
-  margin: 0 50px 30px 0;
+  margin: 0 50px 0 0;
   background-image: url(/front/img/subscribe/userpic.png);
 }
 
@@ -1511,14 +1515,16 @@ ul.page-sort-title li::after {
 /* footer */
 
 .page-footer {
-  width: $width-100;
-  min-width: 1600px;
+  width: 100%;
+  min-width: 768px;
   min-height: 79px;
+  width: $width-100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #222224;
   padding: 20px 235px;
+  margin: 0 auto;
 }
 
 .page-foter-text {
@@ -1558,4 +1564,144 @@ ul.page-sort-title li::after {
 
 .fa-twitter:hover {
   background-color: #1da1f2;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    width: 768px;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+
+  .page-header-btn {
+    margin-right: 0;
+  }
+
+  .page-header-wrap {
+    margin: 0;
+  }
+
+  .header-banner {
+    width: $width-100;
+    width: 768px;
+    min-height: 367px;
+    background-size: 386px 368px;
+  }
+
+  .header-baner-wrp {
+    margin-right: 0px;
+    line-height: 20px;
+  }
+
+  .header-banner-subject {
+    font-size: 44px;
+  }
+  .header-baner-subtitle {
+    font-size: 24px;
+  }
+
+  .categories {
+    min-width: 734px;
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+
+  .categories-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 232px;
+    max-height: 167px;
+    margin-right: 1px;
+    background-size: 232px 167px;
+    background-repeat: no-repeat;
+    &:nth-child(3){
+      margin-left: 18px;
+    }
+
+    &:nth-child(2){
+      margin-left: 16px;
+    }
+
+    &:nth-child(4) {
+      width: 100%;
+      max-width: 734px;
+      min-height: 167px;
+      background-size: 734px 167px;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .products{
+    width: 100%;
+    min-width: 764px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .product-item{
+    margin: 0;
+  }
+
+  .link-all-product{
+    margin-top: 30px;
+  }
+
+  .our-features{
+    width: $width-100;
+    max-width: 700px;
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin:0;
+  }
+
+  .features-item{
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .subscribe{
+    display:flex;
+    flex-direction: column;
+    background-size: auto;
+    background-position: left;
+  }
+
+  .subscribe-info{
+    margin: 0;
+  }
+
+  .subscribe-info-userpic{
+    margin-left: 40px;
+  }
+
+  .subscribe-form-btn{
+    margin-top: 10px;
+  }
+
+  .page-footer{
+    width: 100%;
+    min-width: 768px;
+    padding: 0;
+    padding: 0 32px; 
+  }
+
+   
 }
