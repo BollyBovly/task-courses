@@ -509,6 +509,165 @@ ul.breadcrumb:last-child{
   margin-bottom: 65px;
 }
 
+// page-cart
+
+.wrapper {
+  max-width: 652px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-cart-content {
+  margin: 96px 380px;
+}
+
+.page-cart {
+  min-width: 652px;
+  max-height: 306px;
+  display: flex;
+  margin-bottom: 40px;
+  box-shadow: 20px 10px 14px 0px #e5e5e5;
+
+  & a {
+    margin: 22px -80px;
+  }
+}
+
+.page-cart-info {
+  max-width: 262px;
+  min-height: 222px;
+  padding: 22px 0 0 10px;
+}
+
+.page-cart-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+
+  color: #222222;
+}
+
+.page-cart-info-prodct {
+  color: #575757;
+}
+
+.page-cart-info-product-container {
+  margin-top: 42px;
+  font-size: 22px;
+}
+
+#price {
+  color: $pink-text-color;
+  margin-left: 3px;
+}
+
+#quantity {
+  padding: 0 15px;
+  border: 1px solid #eaeaea;
+  margin-left: 30px;
+}
+
+/* page-adress */
+
+.page-adress {
+  min-width: 380px;
+  margin-left: -280px;
+  margin-top: 113px;
+}
+
+.page-adress-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #222222;
+}
+
+.page-info-adress {
+  width: $width-100;
+  margin-top: 23px;
+  padding: 13px 16px;
+  border: 1px solid #a4a4a4;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.page-submit-adress {
+  padding: 13px 16px;
+  color: #4a4a4a;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 23px;
+  background-color: transparent;
+  border: 1px solid #a4a4a4;
+}
+
+.page-adress-general {
+  background-color: #f5f3f3;
+  margin-top: 57px;
+  height: 214px;
+}
+
+.page-adress-general-container {
+  padding: 39px 45px 42px 43px;
+}
+
+.page-adress-general-content {
+  text-align: end;
+}
+
+.page-adress-general-subtitle {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #222222;
+}
+
+.page-adress-general-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin: 0 -10px 0 0;
+
+  & p {
+    padding-top: 12px;
+  }
+}
+
+#sum-price {
+  margin-left: 25px;
+}
+
+#general-sum-price {
+  color: $pink-text-color;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.page-adress-line {
+  max-width: 295px;
+  border: 1px solid #e2e2e2;
+  margin: 20px 20px;
+}
+
+.page-adress-submit {
+  max-width: 273px;
+  padding: 16px 43px;
+  background-color: $pink-text-color;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 20px;
+}
+
+
+
 /* products */
 
 .product-link{
