@@ -825,7 +825,7 @@ ul.page-sort-title li::after {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(/front/img/subscribe/bacground.jpg);
+  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(img/subscribe/bacground.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat; }
@@ -846,7 +846,7 @@ ul.page-sort-title li::after {
   height: 96px;
   display: block;
   margin: 0 50px 30px 0;
-  background-image: url(/front/img/subscribe/userpic.png); }
+  background-image: url(img/subscribe/userpic.png); }
 
 /* line 923, scss/style.scss */
 .subscribe-info-text {
