@@ -329,7 +329,7 @@ input:focus-visible {
   min-width: 700px;
   min-height: 764px;
   background-color: #f1e4e6;
-  background-image: url(/front/img/headerBaner/manjacket.png);
+  background-image: url(img/headerBaner/manjacket.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -420,23 +420,23 @@ input:focus-visible {
 }
 
 .categories-items:nth-child(1) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(/front/img/categories/forwoman.png);
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/forwoman.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(img/categories/forwoman.png);
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/categories/forwoman.png);
 }
 
 .categories-items:nth-child(2) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(/front/img/categories/forman.png);
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/forman.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(img/categories/forman.png);
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/categories/forman.png);
 }
 
 .categories-items:nth-child(3) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(/front/img/categories/forkids.png);
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/forkids.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(img/categories/forkids.png);
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/categories/forkids.png);
 }
 
 .categories-items:nth-child(4) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(/front/img/categories/foraccesories.png);
-  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(/front/img/categories/foraccesories.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(img/categories/foraccesories.png);
+  background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/categories/foraccesories.png);
   width: 100%;
   height: 180px;
   background-repeat: no-repeat;
@@ -1117,6 +1117,7 @@ ul.page-sort-title li::after {
   border: none;
   color: #fff;
   padding: 16px 0;
+  margin-bottom: 60px;
 }
 
 /* page-exclusive */
@@ -1489,8 +1490,8 @@ ul.page-sort-title li::after {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0.7)), to(rgba(244, 244, 244, 0.7))), url(/front/img/subscribe/bacground.jpg);
-  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(/front/img/subscribe/bacground.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0.7)), to(rgba(244, 244, 244, 0.7))), url(img/subscribe/bacground.jpg);
+  background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(img/subscribe/bacground.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1518,7 +1519,7 @@ ul.page-sort-title li::after {
   height: 96px;
   display: block;
   margin: 0 50px 0 0;
-  background-image: url(/front/img/subscribe/userpic.png);
+  background-image: url(img/subscribe/userpic.png);
 }
 
 .subscribe-info-text {
