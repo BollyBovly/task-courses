@@ -1822,8 +1822,6 @@ ul.page-sort-title li::after {
     font-size: 38px;
   }
 
-  
-
   .page-breadcrumb-content{
     display: flex;
     flex-direction: column;
@@ -1831,14 +1829,12 @@ ul.page-sort-title li::after {
     justify-content: space-around;
   }
 
-
-
   .filter {
-    z-index: 1;
-    &span {
+    z-index: -1;
+    & span {
     display: none;
     }
-    &svg{
+    & svg{
       width: 37px;
       height: 25px;
     }
@@ -1847,9 +1843,8 @@ ul.page-sort-title li::after {
 
   .page-sort{
     z-index: 10;
+    width: 100%;
   }
-
-
 
   .products{
     margin-top: 0px;

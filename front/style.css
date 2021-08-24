@@ -1708,39 +1708,40 @@ ul.page-sort-title li::after {
   .header-banner-subject {
     font-size: 38px; }
 
-  /* line 1827, scss/style.scss */
+  /* line 1825, scss/style.scss */
   .page-breadcrumb-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
 
-  /* line 1836, scss/style.scss */
+  /* line 1832, scss/style.scss */
   .filter {
-    z-index: 1; }
-    /* line 1838, scss/style.scss */
-    .filterspan {
+    z-index: -1; }
+    /* line 1834, scss/style.scss */
+    .filter span {
       display: none; }
-    /* line 1841, scss/style.scss */
-    .filtersvg {
+    /* line 1837, scss/style.scss */
+    .filter svg {
       width: 37px;
       height: 25px; }
 
-  /* line 1848, scss/style.scss */
+  /* line 1844, scss/style.scss */
   .page-sort {
-    z-index: 10; }
+    z-index: 10;
+    width: 100%; }
 
-  /* line 1854, scss/style.scss */
+  /* line 1849, scss/style.scss */
   .products {
     margin-top: 0px; }
 
-  /* line 1858, scss/style.scss */
+  /* line 1853, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 64px; }
 
-  /* line 1865, scss/style.scss */
+  /* line 1860, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1752,13 +1753,13 @@ ul.page-sort-title li::after {
     margin-bottom: 32px;
     background-size: 344px 249px;
     background-repeat: no-repeat; }
-    /* line 1876, scss/style.scss */
+    /* line 1871, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 0; }
-    /* line 1880, scss/style.scss */
+    /* line 1875, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 0; }
-    /* line 1884, scss/style.scss */
+    /* line 1879, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 344px;
@@ -1766,7 +1767,7 @@ ul.page-sort-title li::after {
       background-size: auto;
       background-repeat: no-repeat; }
 
-  /* line 1893, scss/style.scss */
+  /* line 1888, scss/style.scss */
   .products {
     width: 100%;
     min-width: 100%;
@@ -1774,7 +1775,7 @@ ul.page-sort-title li::after {
     justify-content: center;
     flex-wrap: wrap; }
 
-  /* line 1901, scss/style.scss */
+  /* line 1896, scss/style.scss */
   .subscribe {
     width: 100%;
     min-width: 100%;
@@ -1784,7 +1785,7 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1911, scss/style.scss */
+  /* line 1906, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 100%;
@@ -1794,7 +1795,7 @@ ul.page-sort-title li::after {
     display: flex;
     flex-direction: column-reverse; }
 
-  /* line 1921, scss/style.scss */
+  /* line 1916, scss/style.scss */
   .page-foter-socials {
     padding-top: 33px; } }
 

@@ -1921,17 +1921,18 @@ ul.page-sort-title li::after {
         justify-content: space-around;
   }
   .filter {
-    z-index: 1;
+    z-index: -1;
   }
-  .filterspan {
+  .filter span {
     display: none;
   }
-  .filtersvg {
+  .filter svg {
     width: 37px;
     height: 25px;
   }
   .page-sort {
     z-index: 10;
+    width: 100%;
   }
   .products {
     margin-top: 0px;
