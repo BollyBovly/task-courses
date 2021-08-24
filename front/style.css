@@ -1475,56 +1475,57 @@ ul.page-sort-title li::after {
 @media only screen and (max-width: 768px) {
   /* line 1571, scss/style.scss */
   body {
-    width: 700px;
+    width: 100%;
     margin: 0;
     padding: 0; }
 
   /* line 1577, scss/style.scss */
   .container {
-    width: 600px;
+    width: 100%;
+    min-width: 100%;
     margin: 0 auto; }
 
-  /* line 1582, scss/style.scss */
+  /* line 1583, scss/style.scss */
   .page-header {
-    width: 768px;
+    width: 100%;
     box-sizing: border-box;
     padding: 0 30px; }
 
-  /* line 1588, scss/style.scss */
+  /* line 1589, scss/style.scss */
   .page-header-btn {
     margin-right: 0; }
 
-  /* line 1592, scss/style.scss */
+  /* line 1593, scss/style.scss */
   .page-header-wrap {
     margin: 0; }
 
-  /* line 1596, scss/style.scss */
+  /* line 1597, scss/style.scss */
   .header-banner {
     width: 100%;
-    width: 768px;
+    width: 100%;
     min-height: 367px;
     background-size: 386px 368px; }
 
-  /* line 1603, scss/style.scss */
+  /* line 1604, scss/style.scss */
   .header-baner-wrp {
     margin-right: 0px;
     line-height: 20px; }
 
-  /* line 1608, scss/style.scss */
+  /* line 1609, scss/style.scss */
   .header-banner-subject {
     font-size: 44px; }
 
-  /* line 1611, scss/style.scss */
+  /* line 1612, scss/style.scss */
   .header-baner-subtitle {
     font-size: 24px; }
 
-  /* line 1615, scss/style.scss */
+  /* line 1616, scss/style.scss */
   .categories {
-    min-width: 734px;
-    margin-left: 16px;
+    width: 100%;
+    min-width: 100%;
     margin-top: 20px; }
 
-  /* line 1621, scss/style.scss */
+  /* line 1623, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1536,13 +1537,13 @@ ul.page-sort-title li::after {
     margin-right: 1px;
     background-size: 232px 167px;
     background-repeat: no-repeat; }
-    /* line 1632, scss/style.scss */
+    /* line 1634, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 18px; }
-    /* line 1636, scss/style.scss */
+    /* line 1638, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 16px; }
-    /* line 1640, scss/style.scss */
+    /* line 1642, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 734px;
@@ -1550,7 +1551,7 @@ ul.page-sort-title li::after {
       background-size: 734px 167px;
       background-repeat: no-repeat; }
 
-  /* line 1649, scss/style.scss */
+  /* line 1651, scss/style.scss */
   .products {
     width: 100%;
     min-width: 764px;
@@ -1558,15 +1559,15 @@ ul.page-sort-title li::after {
     justify-content: space-around;
     flex-wrap: wrap; }
 
-  /* line 1657, scss/style.scss */
+  /* line 1659, scss/style.scss */
   .product-item {
     margin: 0; }
 
-  /* line 1661, scss/style.scss */
+  /* line 1663, scss/style.scss */
   .link-all-product {
     margin-top: 30px; }
 
-  /* line 1665, scss/style.scss */
+  /* line 1667, scss/style.scss */
   .our-features {
     width: 100%;
     max-width: 700px;
@@ -1577,31 +1578,32 @@ ul.page-sort-title li::after {
     flex-direction: column;
     margin: 0; }
 
-  /* line 1676, scss/style.scss */
+  /* line 1678, scss/style.scss */
   .features-item {
     margin: 0;
     margin-top: 40px; }
 
-  /* line 1681, scss/style.scss */
+  /* line 1683, scss/style.scss */
   .subscribe {
     display: flex;
     flex-direction: column;
-    background-size: auto;
-    background-position: left; }
+    background-size: 768px 503px;
+    background-position: left;
+    min-height: 500px; }
 
-  /* line 1688, scss/style.scss */
+  /* line 1691, scss/style.scss */
   .subscribe-info {
     margin: 0; }
 
-  /* line 1692, scss/style.scss */
+  /* line 1695, scss/style.scss */
   .subscribe-info-userpic {
     margin-left: 40px; }
 
-  /* line 1696, scss/style.scss */
+  /* line 1699, scss/style.scss */
   .subscribe-form-btn {
     margin-top: 10px; }
 
-  /* line 1700, scss/style.scss */
+  /* line 1703, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 768px;

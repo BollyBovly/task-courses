@@ -1670,16 +1670,17 @@ ul.page-sort-title li::after {
 
 @media only screen and (max-width: 768px) {
   body {
-    width: 700px;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
   .container {
-    width: 600px;
+    width: 100%;
+    min-width: 100%;
     margin: 0 auto;
   }
   .page-header {
-    width: 768px;
+    width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0 30px;
@@ -1692,7 +1693,7 @@ ul.page-sort-title li::after {
   }
   .header-banner {
     width: 100%;
-    width: 768px;
+    width: 100%;
     min-height: 367px;
     background-size: 386px 368px;
   }
@@ -1707,8 +1708,8 @@ ul.page-sort-title li::after {
     font-size: 24px;
   }
   .categories {
-    min-width: 734px;
-    margin-left: 16px;
+    width: 100%;
+    min-width: 100%;
     margin-top: 20px;
   }
   .categories-items {
@@ -1792,8 +1793,9 @@ ul.page-sort-title li::after {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-size: auto;
+    background-size: 768px 503px;
     background-position: left;
+    min-height: 500px;
   }
   .subscribe-info {
     margin: 0;

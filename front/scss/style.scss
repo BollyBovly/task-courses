@@ -1569,18 +1569,19 @@ ul.page-sort-title li::after {
 
 @media only screen and (max-width: 768px) {
   body {
-    width: 700px;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
 
   .container {
-    width: 600px;
+    width: 100%;
+    min-width: 100%;
     margin: 0 auto;
   }
 
   .page-header {
-    width: 768px;
+    width: 100%;
     box-sizing: border-box;
     padding: 0 30px;
   }
@@ -1594,8 +1595,8 @@ ul.page-sort-title li::after {
   }
 
   .header-banner {
-    width: $width-100;
-    width: 768px;
+    width: 100%;
+    width: 100%;
     min-height: 367px;
     background-size: 386px 368px;
   }
@@ -1613,8 +1614,9 @@ ul.page-sort-title li::after {
   }
 
   .categories {
-    min-width: 734px;
-    margin-left: 16px;
+    width: 100%;
+    min-width: 100%;
+    // margin-left: 16px;
     margin-top: 20px;
   }
 
@@ -1681,8 +1683,9 @@ ul.page-sort-title li::after {
   .subscribe{
     display:flex;
     flex-direction: column;
-    background-size: auto;
+    background-size: 768px 503px;
     background-position: left;
+    min-height: 500px;
   }
 
   .subscribe-info{
@@ -1703,6 +1706,4 @@ ul.page-sort-title li::after {
     padding: 0;
     padding: 0 32px; 
   }
-
-   
 }
