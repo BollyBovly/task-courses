@@ -15,7 +15,7 @@ body {
 /* line 21, scss/style.scss */
 .container {
   width: 100%;
-  min-width: 700px;
+  min-width: 300px;
   margin: 0 auto; }
 
 /* line 27, scss/style.scss */
@@ -31,7 +31,7 @@ input:focus-visible {
 /* line 39, scss/style.scss */
 .page-header {
   width: 100%;
-  min-width: 700px;
+  min-width: 300px;
   min-height: 75px;
   display: flex;
   justify-content: space-between;
@@ -1276,7 +1276,7 @@ ul.page-sort-title li::after {
 /* line 1365, scss/style.scss */
 .our-features {
   width: 100%;
-  min-width: 768px;
+  min-width: 100%;
   min-height: 341px;
   display: flex;
   justify-content: center;
@@ -1319,7 +1319,7 @@ ul.page-sort-title li::after {
 .subscribe {
   width: 100%;
   min-width: 768px;
-  min-height: 448px;
+  min-height: 348px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1423,7 +1423,7 @@ ul.page-sort-title li::after {
 /* line 1518, scss/style.scss */
 .page-footer {
   width: 100%;
-  min-width: 768px;
+  min-width: 300px;
   min-height: 79px;
   width: 100%;
   display: flex;
@@ -1515,17 +1515,17 @@ ul.page-sort-title li::after {
   .header-banner-subject {
     font-size: 44px; }
 
-  /* line 1612, scss/style.scss */
+  /* line 1613, scss/style.scss */
   .header-baner-subtitle {
     font-size: 24px; }
 
-  /* line 1616, scss/style.scss */
+  /* line 1617, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 20px; }
 
-  /* line 1623, scss/style.scss */
+  /* line 1624, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1537,13 +1537,13 @@ ul.page-sort-title li::after {
     margin-right: 1px;
     background-size: 232px 167px;
     background-repeat: no-repeat; }
-    /* line 1634, scss/style.scss */
+    /* line 1635, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 18px; }
-    /* line 1638, scss/style.scss */
+    /* line 1639, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 16px; }
-    /* line 1642, scss/style.scss */
+    /* line 1643, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 734px;
@@ -1551,7 +1551,7 @@ ul.page-sort-title li::after {
       background-size: 734px 167px;
       background-repeat: no-repeat; }
 
-  /* line 1651, scss/style.scss */
+  /* line 1652, scss/style.scss */
   .products {
     width: 100%;
     min-width: 764px;
@@ -1559,15 +1559,15 @@ ul.page-sort-title li::after {
     justify-content: space-around;
     flex-wrap: wrap; }
 
-  /* line 1659, scss/style.scss */
+  /* line 1660, scss/style.scss */
   .product-item {
     margin: 0; }
 
-  /* line 1663, scss/style.scss */
+  /* line 1664, scss/style.scss */
   .link-all-product {
     margin-top: 30px; }
 
-  /* line 1667, scss/style.scss */
+  /* line 1668, scss/style.scss */
   .our-features {
     width: 100%;
     max-width: 700px;
@@ -1578,12 +1578,12 @@ ul.page-sort-title li::after {
     flex-direction: column;
     margin: 0; }
 
-  /* line 1678, scss/style.scss */
+  /* line 1679, scss/style.scss */
   .features-item {
     margin: 0;
     margin-top: 40px; }
 
-  /* line 1683, scss/style.scss */
+  /* line 1684, scss/style.scss */
   .subscribe {
     display: flex;
     flex-direction: column;
@@ -1591,23 +1591,133 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1691, scss/style.scss */
+  /* line 1692, scss/style.scss */
   .subscribe-info {
     margin: 0; }
 
-  /* line 1695, scss/style.scss */
+  /* line 1696, scss/style.scss */
   .subscribe-info-userpic {
     margin-left: 40px; }
 
-  /* line 1699, scss/style.scss */
+  /* line 1700, scss/style.scss */
   .subscribe-form-btn {
     margin-top: 10px; }
 
-  /* line 1703, scss/style.scss */
+  /* line 1704, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 768px;
     padding: 0;
     padding: 0 32px; } }
+@media (max-width: 425px) {
+  /* line 1713, scss/style.scss */
+  body {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* line 1720, scss/style.scss */
+  .container {
+    width: 100%;
+    min-width: 100%;
+    margin: 0 auto; }
+
+  /* line 1726, scss/style.scss */
+  .page-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px; }
+
+  /* line 1732, scss/style.scss */
+  .user-profile-btn,
+  .basket-btn {
+    display: none; }
+
+  /* line 1737, scss/style.scss */
+  .menu {
+    padding-left: 150px; }
+
+  /* line 1742, scss/style.scss */
+  .header-baner-wrp {
+    margin-left: 80px; }
+
+  /* line 1746, scss/style.scss */
+  .header-banner {
+    width: 100%;
+    min-width: 100%;
+    min-height: 367px;
+    background-image: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px; }
+
+  /* line 1756, scss/style.scss */
+  .header-banner-subject {
+    font-size: 38px; }
+
+  /* line 1760, scss/style.scss */
+  .categories {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 64px; }
+
+  /* line 1767, scss/style.scss */
+  .categories-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 344px;
+    max-height: 249px;
+    margin-bottom: 32px;
+    background-size: 344px 249px;
+    background-repeat: no-repeat; }
+    /* line 1778, scss/style.scss */
+    .categories-items:nth-child(3) {
+      margin-left: 0; }
+    /* line 1782, scss/style.scss */
+    .categories-items:nth-child(2) {
+      margin-left: 0; }
+    /* line 1786, scss/style.scss */
+    .categories-items:nth-child(4) {
+      width: 100%;
+      max-width: 344px;
+      max-height: 111px;
+      background-size: auto;
+      background-repeat: no-repeat; }
+
+  /* line 1795, scss/style.scss */
+  .products {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+
+  /* line 1803, scss/style.scss */
+  .subscribe {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: 768px 503px;
+    background-position: left;
+    min-height: 500px; }
+
+  /* line 1813, scss/style.scss */
+  .page-footer {
+    width: 100%;
+    min-width: 100%;
+    min-height: 143px;
+    padding: 0;
+    padding: 10px 32px;
+    display: flex;
+    flex-direction: column-reverse; }
+
+  /* line 1823, scss/style.scss */
+  .page-foter-socials {
+    padding-top: 33px; } }
 
 /*# sourceMappingURL=style.css.map */
