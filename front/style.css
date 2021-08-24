@@ -1646,23 +1646,24 @@ ul.page-sort-title li::after {
   .header-banner {
     width: 100%;
     min-width: 100%;
-    min-height: 367px;
+    min-height: 363px;
     background-image: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     font-size: 20px; }
 
-  /* line 1756, scss/style.scss */
+  /* line 1757, scss/style.scss */
   .header-banner-subject {
     font-size: 38px; }
 
-  /* line 1760, scss/style.scss */
+  /* line 1761, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 64px; }
 
-  /* line 1767, scss/style.scss */
+  /* line 1768, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1674,13 +1675,13 @@ ul.page-sort-title li::after {
     margin-bottom: 32px;
     background-size: 344px 249px;
     background-repeat: no-repeat; }
-    /* line 1778, scss/style.scss */
+    /* line 1779, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 0; }
-    /* line 1782, scss/style.scss */
+    /* line 1783, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 0; }
-    /* line 1786, scss/style.scss */
+    /* line 1787, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 344px;
@@ -1688,7 +1689,7 @@ ul.page-sort-title li::after {
       background-size: auto;
       background-repeat: no-repeat; }
 
-  /* line 1795, scss/style.scss */
+  /* line 1796, scss/style.scss */
   .products {
     width: 100%;
     min-width: 100%;
@@ -1696,7 +1697,7 @@ ul.page-sort-title li::after {
     justify-content: center;
     flex-wrap: wrap; }
 
-  /* line 1803, scss/style.scss */
+  /* line 1804, scss/style.scss */
   .subscribe {
     width: 100%;
     min-width: 100%;
@@ -1706,7 +1707,7 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1813, scss/style.scss */
+  /* line 1814, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 100%;
@@ -1716,7 +1717,7 @@ ul.page-sort-title li::after {
     display: flex;
     flex-direction: column-reverse; }
 
-  /* line 1823, scss/style.scss */
+  /* line 1824, scss/style.scss */
   .page-foter-socials {
     padding-top: 33px; } }
 
