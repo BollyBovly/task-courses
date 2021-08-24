@@ -856,6 +856,35 @@ ul.breadcrumb:last-child {
   text-align: center;
 }
 
+.page-sort-product {
+  font-size: 14px;
+  font-weight: 1300;
+  text-align: center;
+}
+
+ul.page-sort-title-product {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.page-sort-title-product li {
+  display: inline;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+ul.page-sort-title-product li a {
+  color: #636363;
+  text-decoration: none;
+}
+
+ul.page-sort-title-product li::after {
+  padding: 8px;
+  color: #6f6e6e;
+  content: "\02C5\00a0";
+}
+
 ul.page-sort-title {
   padding: 10px 16px;
   list-style: none;
@@ -1742,6 +1771,13 @@ ul.page-sort-title li::after {
   .filter {
     padding-left: 16px;
     margin: 0;
+  }
+  .page-info-collection::after {
+    position: absolute;
+    right: 350px;
+  }
+  .page-sort-product {
+    text-align: center;
   }
   .products {
     margin-bottom: 60px;
