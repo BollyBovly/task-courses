@@ -1773,13 +1773,51 @@ ul.page-sort-title li::after {
   .products {
     margin-top: 0px; }
 
-  /* line 1889, scss/style.scss */
+  /* line 1890, scss/style.scss */
+  .page-carousel {
+    width: 100%;
+    min-width: 100%; }
+
+  /* line 1896, scss/style.scss */
+  .page-carousel-product img {
+    width: 100%;
+    z-index: -1; }
+
+  /* line 1901, scss/style.scss */
+  .page-carousel-control {
+    z-index: 1; }
+
+  /* line 1905, scss/style.scss */
+  .page-info-collection::after {
+    position: absolute;
+    right: 180px; }
+
+  /* line 1910, scss/style.scss */
+  .page-info-txt {
+    max-width: 330px; }
+
+  /* line 1914, scss/style.scss */
+  .page-info-about-product {
+    margin-bottom: 64px; }
+
+  /* line 1919, scss/style.scss */
+  .page-info-btn {
+    margin-bottom: 60px; }
+
+  /* line 1923, scss/style.scss */
+  .page-info-line {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+
+  /* line 1931, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 64px; }
 
-  /* line 1896, scss/style.scss */
+  /* line 1938, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1791,13 +1829,13 @@ ul.page-sort-title li::after {
     margin-bottom: 32px;
     background-size: 344px 249px;
     background-repeat: no-repeat; }
-    /* line 1907, scss/style.scss */
+    /* line 1949, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 0; }
-    /* line 1911, scss/style.scss */
+    /* line 1953, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 0; }
-    /* line 1915, scss/style.scss */
+    /* line 1957, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 344px;
@@ -1805,7 +1843,7 @@ ul.page-sort-title li::after {
       background-size: auto;
       background-repeat: no-repeat; }
 
-  /* line 1924, scss/style.scss */
+  /* line 1966, scss/style.scss */
   .products {
     width: 100%;
     min-width: 100%;
@@ -1813,7 +1851,7 @@ ul.page-sort-title li::after {
     justify-content: center;
     flex-wrap: wrap; }
 
-  /* line 1932, scss/style.scss */
+  /* line 1974, scss/style.scss */
   .subscribe {
     width: 100%;
     min-width: 100%;
@@ -1823,7 +1861,7 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1942, scss/style.scss */
+  /* line 1984, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 100%;
@@ -1833,7 +1871,7 @@ ul.page-sort-title li::after {
     display: flex;
     flex-direction: column-reverse; }
 
-  /* line 1952, scss/style.scss */
+  /* line 1994, scss/style.scss */
   .page-foter-socials {
     padding-top: 33px; } }
 

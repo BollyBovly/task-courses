@@ -1886,6 +1886,48 @@ ul.page-sort-title li::after {
     margin-top: 0px;
   }
 
+
+  .page-carousel{
+    width: 100%;
+    min-width: 100%;
+
+  }
+  
+  .page-carousel-product img{
+    width: 100%;
+    z-index: -1;
+  }
+
+  .page-carousel-control{
+    z-index: 1;
+  }
+
+  .page-info-collection::after{
+    position: absolute;
+    right:180px;
+  }
+
+  .page-info-txt{
+    max-width: 330px;
+  }
+
+  .page-info-about-product{
+    margin-bottom: 64px;
+  }
+
+
+  .page-info-btn{
+    margin-bottom: 60px;
+  }
+
+  .page-info-line{
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+
   .categories {
     width: 100%;
     min-width: 100%;
