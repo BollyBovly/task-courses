@@ -837,40 +837,59 @@ ul.page-sort-title li::after {
   border: 1px solid #eaeaea;
   margin-left: 30px; }
 
-/* line 914, scss/style.scss */
+/* line 913, scss/style.scss */
+.page-cart-btn-clear {
+  padding: 15px 38px;
+  background-color: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px; }
+
+/* line 922, scss/style.scss */
+.page-cart-btn-continue {
+  padding: 15px 38px;
+  background-color: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 175px; }
+
+/* line 933, scss/style.scss */
 .page-item {
   display: inline-block;
   margin: 13px 10px; }
 
-/* line 919, scss/style.scss */
+/* line 938, scss/style.scss */
 .page-item .page-link {
   text-decoration: none;
   color: #000; }
 
-/* line 924, scss/style.scss */
+/* line 943, scss/style.scss */
 .page-item .page-link:hover {
   color: #ef5b70; }
 
-/* line 928, scss/style.scss */
+/* line 947, scss/style.scss */
 .page-item span {
   color: #000;
   font-weight: 900; }
 
 /* page-adress */
-/* line 935, scss/style.scss */
+/* line 954, scss/style.scss */
 .page-adress {
   min-width: 380px;
   margin-left: -280px;
   margin-top: 113px; }
 
-/* line 941, scss/style.scss */
+/* line 960, scss/style.scss */
 .page-adress-title {
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #222222; }
 
-/* line 949, scss/style.scss */
+/* line 968, scss/style.scss */
 .page-info-adress {
   width: 100%;
   margin-top: 23px;
@@ -880,7 +899,7 @@ ul.page-sort-title li::after {
   font-size: 13px;
   line-height: 16px; }
 
-/* line 959, scss/style.scss */
+/* line 978, scss/style.scss */
 .page-submit-adress {
   padding: 13px 16px;
   color: #4a4a4a;
@@ -891,55 +910,55 @@ ul.page-sort-title li::after {
   background-color: transparent;
   border: 1px solid #a4a4a4; }
 
-/* line 970, scss/style.scss */
+/* line 989, scss/style.scss */
 .page-adress-general {
   background-color: #f5f3f3;
   margin-top: 57px;
   height: 214px; }
 
-/* line 976, scss/style.scss */
+/* line 995, scss/style.scss */
 .page-adress-general-container {
   padding: 39px 45px 42px 43px; }
 
-/* line 980, scss/style.scss */
+/* line 999, scss/style.scss */
 .page-adress-general-content {
   text-align: end; }
 
-/* line 984, scss/style.scss */
+/* line 1003, scss/style.scss */
 .page-adress-general-subtitle {
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
   color: #222222; }
 
-/* line 991, scss/style.scss */
+/* line 1010, scss/style.scss */
 .page-adress-general-title {
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #222222;
   margin: 0 -10px 0 0; }
-  /* line 998, scss/style.scss */
+  /* line 1017, scss/style.scss */
   .page-adress-general-title p {
     padding-top: 12px; }
 
-/* line 1003, scss/style.scss */
+/* line 1022, scss/style.scss */
 #sum-price {
   margin-left: 25px; }
 
-/* line 1007, scss/style.scss */
+/* line 1026, scss/style.scss */
 #general-sum-price {
   color: #f16d7f;
   font-weight: bold;
   margin-left: 25px; }
 
-/* line 1013, scss/style.scss */
+/* line 1032, scss/style.scss */
 .page-adress-line {
   max-width: 295px;
   border: 1px solid #e2e2e2;
   margin: 20px 20px; }
 
-/* line 1019, scss/style.scss */
+/* line 1038, scss/style.scss */
 .page-adress-submit {
   max-width: 273px;
   padding: 16px 43px;
@@ -952,7 +971,7 @@ ul.page-sort-title li::after {
   margin-left: 20px; }
 
 /* page-registration */
-/* line 1033, scss/style.scss */
+/* line 1052, scss/style.scss */
 .wrap {
   max-width: 1200px;
   display: flex;
@@ -960,15 +979,15 @@ ul.page-sort-title li::after {
   margin: 0 auto;
   margin-top: 64px; }
 
-/* line 1041, scss/style.scss */
+/* line 1060, scss/style.scss */
 .page-registration-info-product {
   width: 358px; }
 
-/* line 1045, scss/style.scss */
+/* line 1064, scss/style.scss */
 .page-registration {
   max-width: 360px; }
 
-/* line 1049, scss/style.scss */
+/* line 1068, scss/style.scss */
 .page-info-registration {
   width: 100%;
   margin-top: 23px;
@@ -978,19 +997,19 @@ ul.page-sort-title li::after {
   font-size: 13px;
   line-height: 16px; }
 
-/* line 1059, scss/style.scss */
+/* line 1078, scss/style.scss */
 .page-info-registration-radio {
   margin: 32px 0;
   border: 1px solid #a4a4a4;
   box-sizing: border-box; }
-  /* line 1064, scss/style.scss */
+  /* line 1083, scss/style.scss */
   .page-info-registration-radio label {
     font-weight: 300;
     font-size: 11px;
     line-height: 13px;
     color: #000000; }
 
-/* line 1073, scss/style.scss */
+/* line 1092, scss/style.scss */
 .page-info-registration-txt p {
   margin: 15px 0 30px 0;
   font-weight: 300;
@@ -998,7 +1017,7 @@ ul.page-sort-title li::after {
   line-height: 16px;
   color: #b1b1b1; }
 
-/* line 1082, scss/style.scss */
+/* line 1101, scss/style.scss */
 .page-registration-submit {
   min-width: 167px;
   background-color: #f16d7f;
@@ -1008,28 +1027,28 @@ ul.page-sort-title li::after {
   margin-bottom: 60px; }
 
 /* page-exclusive */
-/* line 1093, scss/style.scss */
+/* line 1112, scss/style.scss */
 .page-exclusive {
   max-width: 652px; }
 
-/* line 1097, scss/style.scss */
+/* line 1116, scss/style.scss */
 .page-exclusive-title {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #000000; }
-  /* line 1102, scss/style.scss */
+  /* line 1121, scss/style.scss */
   .page-exclusive-title p {
     margin-bottom: 20px; }
 
-/* line 1107, scss/style.scss */
+/* line 1126, scss/style.scss */
 .page-exclusive-subtitle {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #000000; }
 
-/* line 1114, scss/style.scss */
+/* line 1133, scss/style.scss */
 .page-exclusive-content {
   padding-left: 35px;
   font-weight: 300;
@@ -1039,10 +1058,10 @@ ul.page-sort-title li::after {
   max-width: 652px;
   color: #000000; }
 
-/* line 1125, scss/style.scss */
+/* line 1144, scss/style.scss */
 .page-exclusive-content-txt {
   line-height: 40px; }
-  /* line 1127, scss/style.scss */
+  /* line 1146, scss/style.scss */
   .page-exclusive-content-txt::before {
     content: "\2713\00a0";
     display: block;
@@ -1050,7 +1069,7 @@ ul.page-sort-title li::after {
     right: 980px; }
 
 /* page-carousel */
-/* line 1137, scss/style.scss */
+/* line 1156, scss/style.scss */
 .page-carousel {
   width: 100%;
   display: flex;
@@ -1060,25 +1079,25 @@ ul.page-sort-title li::after {
   border: 1px solid #eaeaea;
   min-height: 777px; }
 
-/* line 1147, scss/style.scss */
+/* line 1166, scss/style.scss */
 .page-carousel-control {
   padding: 12px 17px;
   border: none;
   background: rgba(42, 42, 42, 0.15);
   cursor: pointer; }
 
-/* line 1154, scss/style.scss */
+/* line 1173, scss/style.scss */
 .control-left {
   border: none;
   background-color: transparent; }
 
-/* line 1159, scss/style.scss */
+/* line 1178, scss/style.scss */
 .control-right {
   border: none;
   background-color: transparent; }
 
 /* page-info-about-product */
-/* line 1166, scss/style.scss */
+/* line 1185, scss/style.scss */
 .page-info-about-product {
   max-width: 1140px;
   min-height: 601px;
@@ -1089,26 +1108,26 @@ ul.page-sort-title li::after {
   position: relative; }
 
 /*=========end page-info-about-product  ===========*/
-/* line 1178, scss/style.scss */
+/* line 1197, scss/style.scss */
 .page-info-product {
   width: 1141px;
   min-height: 601;
   border: 1px solid #eaeaea;
   text-align: center; }
 
-/* line 1185, scss/style.scss */
+/* line 1204, scss/style.scss */
 .page-info-about-content {
   text-align: center;
   padding-top: 65px; }
 
-/* line 1190, scss/style.scss */
+/* line 1209, scss/style.scss */
 .page-info-collection {
   font-size: 14px;
   font-weight: 300;
   color: #f16d7f;
   text-transform: uppercase;
   line-height: 17px; }
-  /* line 1196, scss/style.scss */
+  /* line 1215, scss/style.scss */
   .page-info-collection::after {
     content: "";
     display: block;
@@ -1119,7 +1138,7 @@ ul.page-sort-title li::after {
     right: 535px;
     margin-top: 10px; }
 
-/* line 1208, scss/style.scss */
+/* line 1227, scss/style.scss */
 .page-info-title {
   font-weight: 300;
   font-size: 18px;
@@ -1129,7 +1148,7 @@ ul.page-sort-title li::after {
   padding: 12px 0 48px 0;
   margin-left: 100px; }
 
-/* line 1218, scss/style.scss */
+/* line 1237, scss/style.scss */
 .page-info-txt {
   width: 555px;
   margin: 0 auto;
@@ -1141,14 +1160,14 @@ ul.page-sort-title li::after {
   line-height: 17px;
   text-align: center; }
 
-/* line 1230, scss/style.scss */
+/* line 1249, scss/style.scss */
 .page-info-cost {
   color: #ef5b70;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px; }
 
-/* line 1237, scss/style.scss */
+/* line 1256, scss/style.scss */
 .page-info-line {
   content: "";
   display: block;
@@ -1160,54 +1179,54 @@ ul.page-sort-title li::after {
   margin-bottom: 65px; }
 
 /* products */
-/* line 1250, scss/style.scss */
+/* line 1269, scss/style.scss */
 .product-link {
   background-color: #f16d7f; }
 
-/* line 1254, scss/style.scss */
+/* line 1273, scss/style.scss */
 .product-item-text {
   background-color: #f8f8f8;
   padding: 16px 0; }
 
-/* line 1259, scss/style.scss */
+/* line 1278, scss/style.scss */
 .product-item-cost {
   padding-left: 20px; }
 
-/* line 1263, scss/style.scss */
+/* line 1282, scss/style.scss */
 #man {
   margin-top: 20px; }
 
-/* line 1267, scss/style.scss */
+/* line 1286, scss/style.scss */
 ul.page-sort-title {
   padding: 10px 16px;
   list-style: none; }
 
-/* line 1272, scss/style.scss */
+/* line 1291, scss/style.scss */
 ul.page-sort-title li {
   display: inline;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase; }
 
-/* line 1279, scss/style.scss */
+/* line 1298, scss/style.scss */
 ul.page-sort-title li a {
   color: #636363;
   text-decoration: none; }
 
-/* line 1284, scss/style.scss */
+/* line 1303, scss/style.scss */
 ul.page-sort-title li::after {
   padding: 8px;
   color: #6f6e6e;
   content: "\02C5\00a0"; }
 
-/* line 1290, scss/style.scss */
+/* line 1309, scss/style.scss */
 .page-info-btn {
   width: 211px;
   background-color: transparent;
   border: 1px solid #ff6a6a;
   color: #ff6a6a;
   margin-top: 48px; }
-  /* line 1297, scss/style.scss */
+  /* line 1316, scss/style.scss */
   .page-info-btn a {
     padding-top: 14px;
     text-decoration: none;
@@ -1217,11 +1236,11 @@ ul.page-sort-title li::after {
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 25px; }
-    /* line 1306, scss/style.scss */
+    /* line 1325, scss/style.scss */
     .page-info-btn a span {
       margin-left: 15px; }
 
-/* line 1312, scss/style.scss */
+/* line 1331, scss/style.scss */
 .products {
   display: flex;
   justify-content: center;
@@ -1233,7 +1252,7 @@ ul.page-sort-title li::after {
   margin: 0 auto;
   margin-top: 129px; }
 
-/* line 1324, scss/style.scss */
+/* line 1343, scss/style.scss */
 .product-item {
   width: 360px;
   min-height: 581px;
@@ -1242,7 +1261,7 @@ ul.page-sort-title li::after {
   margin: 0 20px 20px 0;
   position: relative; }
 
-/* line 1333, scss/style.scss */
+/* line 1352, scss/style.scss */
 .product-item-photo-wrp {
   background-color: #f8f8f8;
   display: flex;
@@ -1251,19 +1270,19 @@ ul.page-sort-title li::after {
   flex-wrap: wrap;
   width: 100%; }
 
-/* line 1342, scss/style.scss */
+/* line 1361, scss/style.scss */
 .product-item-photo {
   display: block;
   margin: 0 auto;
   box-sizing: border-box; }
 
-/* line 1348, scss/style.scss */
+/* line 1367, scss/style.scss */
 .product-item-title {
   padding: 0 18px;
   font-size: 13px;
   line-height: 15, 6px; }
 
-/* line 1354, scss/style.scss */
+/* line 1373, scss/style.scss */
 .product-item-subtitle {
   padding: 12px 18px;
   font-size: 14px;
@@ -1273,7 +1292,7 @@ ul.page-sort-title li::after {
   font-style: normal; }
 
 /* our-features */
-/* line 1365, scss/style.scss */
+/* line 1384, scss/style.scss */
 .our-features {
   width: 100%;
   min-width: 100%;
@@ -1286,7 +1305,7 @@ ul.page-sort-title li::after {
   margin: 95.5px auto 0 auto;
   background-color: #222224; }
 
-/* line 1378, scss/style.scss */
+/* line 1397, scss/style.scss */
 .features-item {
   display: flex;
   justify-content: center;
@@ -1295,12 +1314,12 @@ ul.page-sort-title li::after {
   width: 300px;
   margin: 0 90px 0 0; }
 
-/* line 1387, scss/style.scss */
+/* line 1406, scss/style.scss */
 .features-icon {
   display: block;
   margin: 0 0 28px 0; }
 
-/* line 1392, scss/style.scss */
+/* line 1411, scss/style.scss */
 .features-item-title {
   display: block;
   width: 100%;
@@ -1308,14 +1327,14 @@ ul.page-sort-title li::after {
   font-size: 19px;
   color: #fbfbfb; }
 
-/* line 1400, scss/style.scss */
+/* line 1419, scss/style.scss */
 .feature-title-text {
   text-align: center;
   color: #fbfbfb;
   font-size: 13px; }
 
 /* subscribe */
-/* line 1408, scss/style.scss */
+/* line 1427, scss/style.scss */
 .subscribe {
   width: 100%;
   min-width: 768px;
@@ -1329,7 +1348,7 @@ ul.page-sort-title li::after {
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 1426, scss/style.scss */
+/* line 1445, scss/style.scss */
 .subscribe-info {
   width: 359px;
   min-height: 225px;
@@ -1339,7 +1358,7 @@ ul.page-sort-title li::after {
   flex-wrap: wrap;
   margin: 0 390px 0 0; }
 
-/* line 1436, scss/style.scss */
+/* line 1455, scss/style.scss */
 .subscribe-info-userpic {
   width: 96px;
   height: 96px;
@@ -1347,7 +1366,7 @@ ul.page-sort-title li::after {
   margin: 0 50px 0 0;
   background-image: url(img/subscribe/userpic.png); }
 
-/* line 1444, scss/style.scss */
+/* line 1463, scss/style.scss */
 .subscribe-info-text {
   width: 100%;
   height: 99px;
@@ -1356,35 +1375,35 @@ ul.page-sort-title li::after {
   color: #222224;
   font-style: italic; }
 
-/* line 1453, scss/style.scss */
+/* line 1472, scss/style.scss */
 .subscribe-form {
   width: 358px; }
 
-/* line 1457, scss/style.scss */
+/* line 1476, scss/style.scss */
 .subscribe-form-title,
 .subscribe-form-subtitle {
   text-align: center;
   text-transform: uppercase;
   color: #222224; }
 
-/* line 1464, scss/style.scss */
+/* line 1483, scss/style.scss */
 .subscribe-form-title {
   display: block;
   font-size: 24px; }
 
-/* line 1469, scss/style.scss */
+/* line 1488, scss/style.scss */
 .subscribe-form-subtitle {
   line-height: 30px;
   font-size: 18px; }
 
-/* line 1474, scss/style.scss */
+/* line 1493, scss/style.scss */
 .subscribe-form-btn {
   width: 357px;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-/* line 1481, scss/style.scss */
+/* line 1500, scss/style.scss */
 .subscribe-form-email {
   display: flex;
   align-items: center;
@@ -1397,11 +1416,11 @@ ul.page-sort-title li::after {
   opacity: 67%;
   line-height: 17px; }
 
-/* line 1494, scss/style.scss */
+/* line 1513, scss/style.scss */
 .subscribe-form-email:active {
   border-radius: 20px 0 0 20px; }
 
-/* line 1498, scss/style.scss */
+/* line 1517, scss/style.scss */
 .subscribe-form-submit {
   display: flex;
   align-items: center;
@@ -1413,14 +1432,14 @@ ul.page-sort-title li::after {
   text-transform: capitalize;
   cursor: pointer; }
 
-/* line 1510, scss/style.scss */
+/* line 1529, scss/style.scss */
 .subscribe-form-submit:active {
   background-color: #fff;
   color: #ff6a6a;
   border: 1px solid #ff6a6a; }
 
 /* footer */
-/* line 1518, scss/style.scss */
+/* line 1537, scss/style.scss */
 .page-footer {
   width: 100%;
   min-width: 300px;
@@ -1433,13 +1452,13 @@ ul.page-sort-title li::after {
   padding: 20px 235px;
   margin: 0 auto; }
 
-/* line 1531, scss/style.scss */
+/* line 1550, scss/style.scss */
 .page-foter-text {
   color: #fbfbfb;
   font-size: 16px;
   line-height: 19px; }
 
-/* line 1537, scss/style.scss */
+/* line 1556, scss/style.scss */
 .fa {
   background-color: #fff;
   padding: 8px;
@@ -1451,81 +1470,81 @@ ul.page-sort-title li::after {
   margin: 0 3px 0 0;
   cursor: pointer; }
 
-/* line 1549, scss/style.scss */
+/* line 1568, scss/style.scss */
 .fa:hover {
   color: #fff;
   transition: 0.3s; }
 
-/* line 1554, scss/style.scss */
+/* line 1573, scss/style.scss */
 .fa-facebook:hover {
   background-color: #3b5998; }
 
-/* line 1558, scss/style.scss */
+/* line 1577, scss/style.scss */
 .fa-instagram:hover {
   background-color: #e1306c; }
 
-/* line 1562, scss/style.scss */
+/* line 1581, scss/style.scss */
 .fa-pinterest:hover {
   background-color: #e60023; }
 
-/* line 1566, scss/style.scss */
+/* line 1585, scss/style.scss */
 .fa-twitter:hover {
   background-color: #1da1f2; }
 
 @media only screen and (max-width: 768px) {
-  /* line 1571, scss/style.scss */
+  /* line 1590, scss/style.scss */
   body {
     width: 100%;
     margin: 0;
     padding: 0; }
 
-  /* line 1577, scss/style.scss */
+  /* line 1596, scss/style.scss */
   .container {
     width: 100%;
     min-width: 100%;
     margin: 0 auto; }
 
-  /* line 1583, scss/style.scss */
+  /* line 1602, scss/style.scss */
   .page-header {
     width: 100%;
     box-sizing: border-box;
     padding: 0 30px; }
 
-  /* line 1589, scss/style.scss */
+  /* line 1608, scss/style.scss */
   .page-header-btn {
     margin-right: 0; }
 
-  /* line 1593, scss/style.scss */
+  /* line 1612, scss/style.scss */
   .page-header-wrap {
     margin: 0; }
 
-  /* line 1597, scss/style.scss */
+  /* line 1616, scss/style.scss */
   .header-banner {
     width: 100%;
     width: 100%;
     min-height: 367px;
     background-size: 386px 368px; }
 
-  /* line 1604, scss/style.scss */
+  /* line 1623, scss/style.scss */
   .header-baner-wrp {
     margin-right: 0px;
     line-height: 20px; }
 
-  /* line 1609, scss/style.scss */
+  /* line 1628, scss/style.scss */
   .header-banner-subject {
     font-size: 44px; }
 
-  /* line 1613, scss/style.scss */
+  /* line 1632, scss/style.scss */
   .header-baner-subtitle {
     font-size: 24px; }
 
-  /* line 1617, scss/style.scss */
+  /* line 1636, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 20px; }
 
-  /* line 1624, scss/style.scss */
+  /* line 1643, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1537,13 +1556,13 @@ ul.page-sort-title li::after {
     margin-right: 1px;
     background-size: 232px 167px;
     background-repeat: no-repeat; }
-    /* line 1635, scss/style.scss */
+    /* line 1654, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 18px; }
-    /* line 1639, scss/style.scss */
+    /* line 1658, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 16px; }
-    /* line 1643, scss/style.scss */
+    /* line 1662, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 734px;
@@ -1551,7 +1570,7 @@ ul.page-sort-title li::after {
       background-size: 734px 167px;
       background-repeat: no-repeat; }
 
-  /* line 1652, scss/style.scss */
+  /* line 1671, scss/style.scss */
   .products {
     width: 100%;
     min-width: 764px;
@@ -1559,15 +1578,15 @@ ul.page-sort-title li::after {
     justify-content: space-around;
     flex-wrap: wrap; }
 
-  /* line 1660, scss/style.scss */
+  /* line 1679, scss/style.scss */
   .product-item {
     margin: 0; }
 
-  /* line 1664, scss/style.scss */
+  /* line 1683, scss/style.scss */
   .link-all-product {
     margin-top: 30px; }
 
-  /* line 1668, scss/style.scss */
+  /* line 1687, scss/style.scss */
   .our-features {
     width: 100%;
     max-width: 700px;
@@ -1578,12 +1597,12 @@ ul.page-sort-title li::after {
     flex-direction: column;
     margin: 0; }
 
-  /* line 1679, scss/style.scss */
+  /* line 1698, scss/style.scss */
   .features-item {
     margin: 0;
     margin-top: 40px; }
 
-  /* line 1684, scss/style.scss */
+  /* line 1703, scss/style.scss */
   .subscribe {
     display: flex;
     flex-direction: column;
@@ -1591,58 +1610,58 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1692, scss/style.scss */
+  /* line 1711, scss/style.scss */
   .subscribe-info {
     margin: 0; }
 
-  /* line 1696, scss/style.scss */
+  /* line 1715, scss/style.scss */
   .subscribe-info-userpic {
     margin-left: 40px; }
 
-  /* line 1700, scss/style.scss */
+  /* line 1719, scss/style.scss */
   .subscribe-form-btn {
     margin-top: 10px; }
 
-  /* line 1704, scss/style.scss */
+  /* line 1723, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 768px;
     padding: 0;
     padding: 0 32px; } }
 @media (max-width: 425px) {
-  /* line 1713, scss/style.scss */
+  /* line 1732, scss/style.scss */
   body {
     width: 100%;
     min-width: 100%;
     margin: 0;
     padding: 0; }
 
-  /* line 1720, scss/style.scss */
+  /* line 1739, scss/style.scss */
   .container {
     width: 100%;
     min-width: 100%;
     margin: 0 auto; }
 
-  /* line 1726, scss/style.scss */
+  /* line 1745, scss/style.scss */
   .page-header {
     width: 100%;
     box-sizing: border-box;
     padding: 0 30px; }
 
-  /* line 1732, scss/style.scss */
+  /* line 1751, scss/style.scss */
   .user-profile-btn,
   .basket-btn {
     display: none; }
 
-  /* line 1737, scss/style.scss */
+  /* line 1756, scss/style.scss */
   .menu {
     padding-left: 150px; }
 
-  /* line 1742, scss/style.scss */
+  /* line 1761, scss/style.scss */
   .header-baner-wrp {
     margin-left: 80px; }
 
-  /* line 1746, scss/style.scss */
+  /* line 1765, scss/style.scss */
   .header-banner {
     width: 100%;
     min-width: 100%;
@@ -1653,17 +1672,17 @@ ul.page-sort-title li::after {
     align-items: center;
     font-size: 20px; }
 
-  /* line 1757, scss/style.scss */
+  /* line 1776, scss/style.scss */
   .header-banner-subject {
     font-size: 38px; }
 
-  /* line 1761, scss/style.scss */
+  /* line 1780, scss/style.scss */
   .categories {
     width: 100%;
     min-width: 100%;
     margin-top: 64px; }
 
-  /* line 1768, scss/style.scss */
+  /* line 1787, scss/style.scss */
   .categories-items {
     display: flex;
     justify-content: center;
@@ -1675,13 +1694,13 @@ ul.page-sort-title li::after {
     margin-bottom: 32px;
     background-size: 344px 249px;
     background-repeat: no-repeat; }
-    /* line 1779, scss/style.scss */
+    /* line 1798, scss/style.scss */
     .categories-items:nth-child(3) {
       margin-left: 0; }
-    /* line 1783, scss/style.scss */
+    /* line 1802, scss/style.scss */
     .categories-items:nth-child(2) {
       margin-left: 0; }
-    /* line 1787, scss/style.scss */
+    /* line 1806, scss/style.scss */
     .categories-items:nth-child(4) {
       width: 100%;
       max-width: 344px;
@@ -1689,7 +1708,7 @@ ul.page-sort-title li::after {
       background-size: auto;
       background-repeat: no-repeat; }
 
-  /* line 1796, scss/style.scss */
+  /* line 1815, scss/style.scss */
   .products {
     width: 100%;
     min-width: 100%;
@@ -1697,7 +1716,7 @@ ul.page-sort-title li::after {
     justify-content: center;
     flex-wrap: wrap; }
 
-  /* line 1804, scss/style.scss */
+  /* line 1823, scss/style.scss */
   .subscribe {
     width: 100%;
     min-width: 100%;
@@ -1707,7 +1726,7 @@ ul.page-sort-title li::after {
     background-position: left;
     min-height: 500px; }
 
-  /* line 1814, scss/style.scss */
+  /* line 1833, scss/style.scss */
   .page-footer {
     width: 100%;
     min-width: 100%;
@@ -1717,7 +1736,7 @@ ul.page-sort-title li::after {
     display: flex;
     flex-direction: column-reverse; }
 
-  /* line 1824, scss/style.scss */
+  /* line 1843, scss/style.scss */
   .page-foter-socials {
     padding-top: 33px; } }
 

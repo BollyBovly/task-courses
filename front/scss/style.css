@@ -943,6 +943,25 @@ ul.page-sort-title li::after {
   margin-left: 30px;
 }
 
+.page-cart-btn-clear {
+  padding: 15px 38px;
+  background-color: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.page-cart-btn-continue {
+  padding: 15px 38px;
+  background-color: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 175px;
+}
+
 .page-item {
   display: inline-block;
   margin: 13px 10px;
