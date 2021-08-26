@@ -1174,11 +1174,12 @@ ul.page-sort-title li::after {
 
 .page-exclusive-content-txt {
   line-height: 40px;
+  margin: 0 auto;
   &::before {
-    content: "\2713\00a0";
+    content: url(img/check-mark.png);
     display: block;
     position: absolute;
-    right: 980px;
+    margin-left: -35px;
   }
 }
 
@@ -1789,12 +1790,41 @@ ul.page-sort-title li::after {
     justify-content: space-between;
   }
 
+
+  .wrap{
+    padding: 0 16px;
+  }
+
+  .page-exclusive{
+    margin-left: 20px;
+  }
+
+  .page-exclusive-title{
+    font-size: 16px;
+  }
+
+  .page-exclusive-subtitle{
+    font-size: 16px;
+  }
+
+  .page-exclusive-content{
+    font-size: 16px;
+  }
+
+  .page-exclusive-container{
+    width: 100%;
+    max-width: 94%;
+  }
+
+
   .categories {
     width: 100%;
     min-width: 100%;
     // margin-left: 16px;
     margin-top: 20px;
   }
+
+  
 
   .categories-items {
     display: flex;
@@ -1903,7 +1933,7 @@ ul.page-sort-title li::after {
   .page-header {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0 16px;
   }
 
   .user-profile-btn ,
@@ -1912,8 +1942,7 @@ ul.page-sort-title li::after {
   }
 
   .menu {
-    padding-left: 150px;
-    
+    padding-left: 140px;
   }
 
   .header-baner-wrp {
@@ -2071,6 +2100,29 @@ ul.page-sort-title li::after {
     width:100%;
   }
 
+
+  .wrap{
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column
+  }
+
+  .page-registration-info-product{
+    width: 100%;
+    min-width: 100%;
+    max-width: 95%;
+  }
+
+
+
+  .page-registration-submit {
+    margin-bottom: 40px;
+  }
+
+  .page-exclusive{
+    margin-left: 0;
+    margin-bottom: 96px;
+  }
 
   .categories {
     min-width: 100%;
